@@ -15,10 +15,10 @@ const Testimonials = () => {
   return (
     <div className="poppins mt-40">
       <div className="mx-auto">
-        <h1 className="text-black text-center font-poppins text-[65px] font-semibold leading-normal tracking-[1.95px]">
+        <p className="text-black text-center text-5xl lg:text-[65px] font-semibold leading-normal tracking-[1.95px]">
           Testimonials
-        </h1>
-        <p className=" mt-5 flex-shrink-0 text-black text-center font-poppins text-[21px] font-normal leading-normal tracking-[0.63px]">
+        </p>
+        <p className=" mt-5 flex-shrink-0 text-black text-center font-poppins text-base lg:text-[21px] font-normal leading-normal tracking-[0.63px]">
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
           lectus <br /> netus in. Aliquet donec morbi convallis pretium
         </p>
@@ -26,25 +26,25 @@ const Testimonials = () => {
       <div className="mt-10 mb-10">
         <Carousel autoplay>
           <div>
-            <div className="flex gap-10" style={contentStyle}>
-              <div className="py-14 pl-12">
-                <img className="w-[235px]" src={img1} alt="" />
+            <div className="flex gap-5 lg:gap-10" style={contentStyle}>
+              <div className="lg:py-14 py-20 pl-3 lg:pl-12">
+                <img className="lg:w-[235px] w-[150px]" src={img1} alt="" />
               </div>
               <div className="space-y-2 text-start">
-                <p className="w-[698px] h-[146px] mt-20 text-[#424242] text-justify text-[21px] font-normal leading-normal tracking-[0.42px]">
-                  <span className="text-[#FD6F00] text-[32px] font-bold ">
+                <p className="lg:w-[698px] w-[180px] h-[120px] lg:h-[146px] mt-10 lg:mt-20 text-[#424242] text-justify text-sm lg:text-[21px] font-normal leading-normal tracking-[0.42px]">
+                  <span className="text-[#FD6F00] text-xs lg:text-[32px] font-bold ">
                     “
                   </span>
                   Lorem ipsum dolor sit amet consectetur. In enim cursus odio
                   accumsan. Id leo urna velit neque mattis id tellus arcu
                   condimentum. Augue dictum dolor elementum convallis dignissim
                   malesuada commodo ultrices.
-                  <span className="text-[#FD6F00] text-[32px] font-bold ">
+                  <span className="text-[#FD6F00] text-xs lg:text-[32px] font-bold ">
                     “
                   </span>
                 </p>
-                <p className="text-black text-justify font-poppins text-[24px] font-medium leading-normal tracking-[0.48px]">
-                  Name
+                <p className="text-black pt-24 lg:pt-0 text-justify font-poppins text-[24px] font-medium leading-normal tracking-[0.48px]">
+                  Alex
                 </p>
                 <p className="text-black text-justify font-poppins text-[18px] font-medium leading-normal tracking-[0.48px]">
                   CEO
@@ -53,25 +53,52 @@ const Testimonials = () => {
             </div>
           </div>
           <div>
-            <div className="flex gap-10" style={contentStyle}>
-              <div className="py-14 pl-12">
-                <img className="w-[235px]" src={img2} alt="" />
+            <div className="flex gap-5 lg:gap-10" style={contentStyle}>
+              <div className="lg:py-14 py-20 pl-3 lg:pl-12">
+                <img className="lg:w-[235px] w-[150px]" src={img2} alt="" />
               </div>
               <div className="space-y-2 text-start">
-                <p className="w-[698px] h-[146px] mt-20 text-[#424242] text-justify text-[21px] font-normal leading-normal tracking-[0.42px]">
-                  <span className="text-[#FD6F00] text-justify font-poppins text-[32px] font-bold leading-normal tracking-[0.64px]">
+                <p className="lg:w-[698px] w-[180px] h-[120px] lg:h-[146px] mt-10 lg:mt-20 text-[#424242] text-justify text-sm lg:text-[21px] font-normal leading-normal tracking-[0.42px]">
+                  <span className="text-[#FD6F00] text-xs lg:text-[32px] font-bold ">
                     “
                   </span>
                   Lorem ipsum dolor sit amet consectetur. In enim cursus odio
                   accumsan. Id leo urna velit neque mattis id tellus arcu
                   condimentum. Augue dictum dolor elementum convallis dignissim
                   malesuada commodo ultrices.
-                  <span className="text-[#FD6F00] text-[32px] font-bold ">
+                  <span className="text-[#FD6F00] text-xs lg:text-[32px] font-bold ">
                     “
                   </span>
                 </p>
-                <p className="text-black text-justify font-poppins text-[24px] font-medium leading-normal tracking-[0.48px]">
-                  Name
+                <p className="text-black pt-24 lg:pt-0 text-justify font-poppins text-[24px] font-medium leading-normal tracking-[0.48px]">
+                  Carry
+                </p>
+                <p className="text-black text-justify font-poppins text-[18px] font-medium leading-normal tracking-[0.48px]">
+                  HR
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="flex gap-5 lg:gap-10" style={contentStyle}>
+              <div className="lg:py-14 py-20 pl-3 lg:pl-12">
+                <img className="lg:w-[235px] w-[150px]" src={img1} alt="" />
+              </div>
+              <div className="space-y-2 text-start">
+                <p className="lg:w-[698px] w-[180px] h-[120px] lg:h-[146px] mt-10 lg:mt-20 text-[#424242] text-justify text-sm lg:text-[21px] font-normal leading-normal tracking-[0.42px]">
+                  <span className="text-[#FD6F00] text-xs lg:text-[32px] font-bold ">
+                    “
+                  </span>
+                  Lorem ipsum dolor sit amet consectetur. In enim cursus odio
+                  accumsan. Id leo urna velit neque mattis id tellus arcu
+                  condimentum. Augue dictum dolor elementum convallis dignissim
+                  malesuada commodo ultrices.
+                  <span className="text-[#FD6F00] text-xs lg:text-[32px] font-bold ">
+                    “
+                  </span>
+                </p>
+                <p className="text-black pt-24 lg:pt-0 text-justify font-poppins text-[24px] font-medium leading-normal tracking-[0.48px]">
+                  
                 </p>
                 <p className="text-black text-justify font-poppins text-[18px] font-medium leading-normal tracking-[0.48px]">
                   CEO
@@ -80,51 +107,24 @@ const Testimonials = () => {
             </div>
           </div>
           <div>
-            <div className="flex gap-10" style={contentStyle}>
-              <div className="py-14 pl-12">
-                <img className="w-[235px]" src={img1} alt="" />
+            <div className="flex gap-5 lg:gap-10" style={contentStyle}>
+              <div className="lg:py-14 py-20 pl-3 lg:pl-12">
+                <img className="lg:w-[235px] w-[150px]" src={img2} alt="" />
               </div>
               <div className="space-y-2 text-start">
-                <p className="w-[698px] h-[146px] mt-20 text-[#424242] text-justify text-[20px] font-normal leading-normal tracking-[0.42px]">
-                  <span className="text-[#FD6F00] text-justify font-poppins text-[32px] font-bold leading-normal tracking-[0.64px]">
+                <p className="lg:w-[698px] w-[180px] h-[120px] lg:h-[146px] mt-10 lg:mt-20 text-[#424242] text-justify text-sm lg:text-[21px] font-normal leading-normal tracking-[0.42px]">
+                  <span className="text-[#FD6F00] text-xs lg:text-[32px] font-bold ">
                     “
                   </span>
                   Lorem ipsum dolor sit amet consectetur. In enim cursus odio
                   accumsan. Id leo urna velit neque mattis id tellus arcu
                   condimentum. Augue dictum dolor elementum convallis dignissim
                   malesuada commodo ultrices.
-                  <span className="text-[#FD6F00] text-[32px] font-bold ">
+                  <span className="text-[#FD6F00] text-xs lg:text-[32px] font-bold ">
                     “
                   </span>
                 </p>
-                <p className="text-black text-justify font-poppins text-[24px] font-medium leading-normal tracking-[0.48px]">
-                  Name
-                </p>
-                <p className="text-black text-justify font-poppins text-[18px] font-medium leading-normal tracking-[0.48px]">
-                  CEO
-                </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="flex gap-10" style={contentStyle}>
-              <div className="py-14 pl-12">
-                <img className="w-[235px]" src={img2} alt="" />
-              </div>
-              <div className="space-y-2 text-start">
-                <p className="w-[698px] h-[146px] mt-20 text-[#424242] text-justify text-[21px] font-normal leading-normal tracking-[0.42px]">
-                  <span className="text-[#FD6F00] text-justify font-poppins text-[32px] font-bold leading-normal tracking-[0.64px]">
-                    “
-                  </span>
-                  Lorem ipsum dolor sit amet consectetur. In enim cursus odio
-                  accumsan. Id leo urna velit neque mattis id tellus arcu
-                  condimentum. Augue dictum dolor elementum convallis dignissim
-                  malesuada commodo ultrices.
-                  <span className="text-[#FD6F00] text-[32px] font-bold ">
-                    “
-                  </span>
-                </p>
-                <p className="text-black text-justify font-poppins text-[24px] font-medium leading-normal tracking-[0.48px]">
+                <p className="text-black pt-24 lg:pt-0 text-justify font-poppins text-[24px] font-medium leading-normal tracking-[0.48px]">
                   Name
                 </p>
                 <p className="text-black text-justify font-poppins text-[18px] font-medium leading-normal tracking-[0.48px]">

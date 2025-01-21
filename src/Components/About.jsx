@@ -3,20 +3,20 @@ import { Slider } from 'antd';
 
 const About = () => {
   return (
-    <div className="flex justify-evenly gap-8 mt-20 poppins">
+    <div className="lg:flex justify-evenly gap-8 mt-20 poppins">
       <div>
         <div>
           <div className="relative">
             <img src={man2} alt="" />
-            <div className="w-[374px] absolute top-20 left-[120px] h-[83px] flex-shrink-0 bg-[rgba(253,111,0,0.6)]"></div>
+            <div className="lg:w-[374px] w-[200px] absolute top-12 lg:top-20 left-20 lg:left-[120px] h-[50px] lg:h-[83px] flex-shrink-0 bg-[rgba(253,111,0,0.6)]"></div>
           </div>
         </div>
       </div>
       <div>
-        <h1 className="text-black pt-20 text-[65px] font-poppins font-semibold leading-none tracking-[1.95px]">
+        <h1 className="text-black mb-6 pt-20 text-[65px] font-poppins font-semibold leading-none tracking-[1.95px]">
           About Me
         </h1>
-        <p className="w-[600px] text-black">
+        <p className="lg:w-[600px] w-[350px] text-black">
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
           lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus
           pharetra

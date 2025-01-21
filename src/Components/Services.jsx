@@ -10,7 +10,7 @@ const Services = () => {
         <h1 className="text-black text-center font-poppins text-[65px] font-semibold leading-normal tracking-[1.95px]">
           Services
         </h1>
-        <p className=" flex-shrink-0 text-black text-center font-poppins text-[21px] font-normal leading-normal tracking-[0.63px]">
+        <p className=" flex-shrink-0 text-black text-center font-poppins text-base lg:text-[21px] font-normal leading-normal tracking-[0.63px]">
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
           lectus <br /> netus in. Aliquet donec morbi convallis pretium
         </p>

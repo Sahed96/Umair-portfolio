@@ -2,8 +2,8 @@ import Logo from '../Components/logo';
 
 const Navbar = () => {
   const Navlist = (
-    <div className="lg:flex hover:cursor-pointer traking-[0.63px] items-center text-xl font-normal lg:space-x-10 poppins">
-      <li>Home</li>
+    <div className="lg:flex  hover:cursor-pointer traking-[0.63px] items-center text-xl font-normal lg:space-x-10 poppins">
+      <li >Home</li>
       <li>About Me</li>
       <li>Services</li>
       <li>Projects</li>
@@ -33,7 +33,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm  dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             {Navlist}
           </ul>
@@ -42,11 +42,13 @@ const Navbar = () => {
           <Logo />
         </a>
       </div>
-      <div className="navbar-c hidden lg:flex">
+      <div className="right-6 hidden  lg:flex">
         <ul className="menu menu-horizontal py-2 px-6">{Navlist}</ul>
-        <div className="navbar-end">
-          <a className="btn text-white text-justify text-[15px] hover:bg-orange-700 font-normal leading-normal tracking-[0.63px] bg-[#FD6F00] poppins w-[152px] h-[17px]  py-2 rounded-xl ml-14">Download CV</a>
-        </div>
+      </div>
+      <div className="">
+        <a className=" lg:ml-20 ml-10 btn text-white text-justify text-[15px] hover:bg-orange-700 font-normal leading-normal tracking-[0.63px] bg-[#FD6F00] poppins w-[152px] h-[17px]  py-2 rounded-xl">
+          Download CV
+        </a>
       </div>
     </div>
   );

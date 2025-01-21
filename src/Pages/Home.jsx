@@ -1,4 +1,5 @@
 import About from '../Components/About';
+import Newslater from '../Components/Newslater';
 import Profile from '../Components/Profile';
 import Projects from '../Components/Projects';
 import Services from '../Components/Services';
@@ -12,6 +13,7 @@ const Home = () => {
       <Services />
       <Projects />
       <Testimonials />
+      <Newslater />
     </div>
   );
 };
