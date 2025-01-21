@@ -1,8 +1,26 @@
-# React + Vite
+# Muhammad Umair's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React to showcase skills, projects, and
+professional experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive and modern design.
+- Showcases expertise in Machine Learning, Data Science, and Web Development.
+- Includes a project gallery and contact form.
+
+## Use Case
+
+To initialize and run the project locally:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/your-username/portfolio.git
+   cd portfolio
+   npm install
+   npm start
+   ```
+
+   **Technologies Used**: React.js HTML, CSS, JavaScript Deployed using Netlify
+   Visit the site: [m-umair.netlify.app](https://m-umair.netlify.app/)
