@@ -1,14 +1,17 @@
 import man2 from '../assets/Picture2.png';
 import { Slider } from 'antd';
+import useAos from '../Hook/useAos';
 
 const About = () => {
+  useAos({ duration: 2000 });
+  
   return (
-    <div className="lg:flex justify-evenly gap-8 mt-20 poppins">
+    <div id='about' className="lg:flex justify-evenly gap-8 mt-20 poppins">
       <div>
         <div>
           <div className="relative">
-            <img src={man2} alt="" />
-            <div className="lg:w-[374px] w-[200px] absolute top-12 lg:top-20 left-20 lg:left-[120px] h-[50px] lg:h-[83px] flex-shrink-0 bg-[rgba(253,111,0,0.6)]"></div>
+            <img data-aos='fade-up' src={man2} alt="" />
+            <div data-aos='fade-right' className="lg:w-[374px] w-[200px] absolute top-12 lg:top-20 left-20 lg:left-[120px] h-[50px] lg:h-[83px] flex-shrink-0 bg-[rgba(253,111,0,0.6)]"></div>
           </div>
         </div>
       </div>

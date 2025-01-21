@@ -2,10 +2,13 @@ import icon1 from '../assets/icon1.png';
 import icon2 from '../assets/icon2.png';
 import icon3 from '../assets/icon3.png';
 import icon4 from '../assets/icon4.png';
+import useAos from '../Hook/useAos';
+
 
 const Services = () => {
+  useAos({ duration: 2000 });
   return (
-    <div className="mt-20 poppins">
+    <div id='services' className="mt-20 poppins">
       <div className="mx-auto">
         <h1 className="text-black text-center font-poppins text-[65px] font-semibold leading-normal tracking-[1.95px]">
           Services
@@ -16,7 +19,7 @@ const Services = () => {
         </p>
       </div>
       <div className="grid lg:grid-cols-4 grid-cols-1 ml-4 gap-10 mt-14 justify-center mx-auto">
-        <div className="w-[330px] px-5 h-[346px] flex-shrink-0 rounded-[14px] bg-[#F8F8F8]">
+        <div data-aos="zoom-out-down" className="w-[330px] px-5 h-[346px] flex-shrink-0 rounded-[14px] bg-[#F8F8F8]">
           <img className="pt-[57px]" src={icon1} alt="" />
           <h2 className="text-black pt-6 font-poppins text-[32px] font-semibold leading-normal tracking-[0.96px]">
             UI/UX
@@ -26,7 +29,7 @@ const Services = () => {
             interdum
           </p>
         </div>
-        <div className="w-[330px] px-5 h-[346px] flex-shrink-0 rounded-[14px] bg-[#F8F8F8]">
+        <div data-aos="zoom-out-down" className="w-[330px] px-5 h-[346px] flex-shrink-0 rounded-[14px] bg-[#F8F8F8]">
           <img className="pt-[57px]" src={icon2} alt="" />
           <h2 className="text-black pt-6 font-poppins text-[32px] font-semibold leading-normal tracking-[0.96px]">
             Web Design
@@ -36,7 +39,7 @@ const Services = () => {
             interdum
           </p>
         </div>
-        <div className="w-[330px] px-5 h-[346px] flex-shrink-0 rounded-[14px] bg-[#F8F8F8]">
+        <div data-aos="zoom-out-up" className="w-[330px] px-5 h-[346px] flex-shrink-0 rounded-[14px] bg-[#F8F8F8]">
           <img className="pt-[57px]" src={icon3} alt="" />
           <h2 className="text-black pt-6 font-poppins text-[32px] font-semibold leading-normal tracking-[0.96px]">
             App Design
@@ -46,7 +49,7 @@ const Services = () => {
             interdum
           </p>
         </div>
-        <div className="w-[330px] px-5 h-[346px] flex-shrink-0 rounded-[14px] bg-[#F8F8F8]">
+        <div data-aos="zoom-out-down" className="w-[330px] px-5 h-[346px] flex-shrink-0 rounded-[14px] bg-[#F8F8F8]">
           <img className="pt-[57px]" src={icon4} alt="" />
           <h2 className="text-black pt-6 font-poppins text-[32px] font-semibold leading-normal tracking-[0.96px]">
             Graphic Design

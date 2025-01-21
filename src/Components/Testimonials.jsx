@@ -13,7 +13,7 @@ const contentStyle = {
 
 const Testimonials = () => {
   return (
-    <div className="poppins mt-40">
+    <div id="testimonial" className="poppins mt-40">
       <div className="mx-auto">
         <p className="text-black text-center text-5xl lg:text-[65px] font-semibold leading-normal tracking-[1.95px]">
           Testimonials
@@ -98,7 +98,7 @@ const Testimonials = () => {
                   </span>
                 </p>
                 <p className="text-black pt-24 lg:pt-0 text-justify font-poppins text-[24px] font-medium leading-normal tracking-[0.48px]">
-                  
+                  Jackson
                 </p>
                 <p className="text-black text-justify font-poppins text-[18px] font-medium leading-normal tracking-[0.48px]">
                   CEO
@@ -125,7 +125,7 @@ const Testimonials = () => {
                   </span>
                 </p>
                 <p className="text-black pt-24 lg:pt-0 text-justify font-poppins text-[24px] font-medium leading-normal tracking-[0.48px]">
-                  Name
+                  Alberto
                 </p>
                 <p className="text-black text-justify font-poppins text-[18px] font-medium leading-normal tracking-[0.48px]">
                   CEO

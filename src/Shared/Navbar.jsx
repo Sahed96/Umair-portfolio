@@ -1,14 +1,69 @@
 import Logo from '../Components/logo';
+import { NavHashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
   const Navlist = (
     <div className="lg:flex  hover:cursor-pointer traking-[0.63px] items-center text-xl font-normal lg:space-x-10 poppins">
-      <li >Home</li>
-      <li>About Me</li>
-      <li>Services</li>
-      <li>Projects</li>
-      <li>Testimonial</li>
-      <li>Contact</li>
+      <li>
+        <Link spy={true} smooth={true} offset={-70} duration={1000} to="/#">
+          Home
+        </Link>
+      </li>
+      <li>
+        <Link
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={1000}
+          to="/#about"
+        >
+          About Me
+        </Link>
+      </li>
+      <li>
+        <Link
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={1000}
+          to="/#services"
+        >
+          Services
+        </Link>
+      </li>
+      <li>
+        <Link
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={1000}
+          to="/#projects"
+        >
+          Projects
+        </Link>
+      </li>
+      <li>
+        <Link
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={1000}
+          to="/#testimonial"
+        >
+          Testimonial
+        </Link>
+      </li>
+      <li>
+        <Link
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={1000}
+          to="/#contact"
+        >
+          Contact
+        </Link>
+      </li>
     </div>
   );
   return (

@@ -1,9 +1,9 @@
 const Newslater = () => {
   return (
-    <div className="mt-20 poppins">
+    <div id="contact" className="mt-20 poppins">
       <div className="mx-auto">
         <h1 className="text-black text-center font-poppins text-5xl lg:text-[65px] font-semibold leading-normal tracking-[1.95px]">
-        Lets Design Together
+          Lets Design Together
         </h1>
         <p className=" mt-5 flex-shrink-0 text-black text-center font-poppins text-base lg:text-[21px] font-normal leading-normal tracking-[0.63px]">
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh

@@ -4,10 +4,12 @@ import design3 from '../assets/Web Designs (2).png';
 import design4 from '../assets/Web Designs (3).png';
 import design5 from '../assets/Web Designs (4).png';
 import design6 from '../assets/Web Designs (5).png';
+import useAos from '../Hook/useAos';
 
 const Projects = () => {
+  useAos({ duration: 2000 });
   return (
-    <div className="mt-20 poppins">
+    <div id="projects" className="mt-20 poppins">
       <div className="mx-auto">
         <h1 className="text-black text-center font-poppins text-5xl lg:text-[65px] font-semibold leading-normal tracking-[1.95px]">
           My Projects
@@ -37,8 +39,18 @@ const Projects = () => {
         </div>
         <div className="grid mb-10 lg:grid-cols-3 grid-cols-1 lg:ml-6 space-y-28 lg:space-y-0 gap-10 mt-14 justify-center mx-auto">
           <div className="relative w-[370px] lg:w-[445px] h-[489px] rounded-[12px] bg-[#FFEBDB]">
-            <img className="absolute pr-3 lg:pr-7 right-0" src={design2} alt="" />
-            <img className="absolute -bottom-1 pl-3 lg:pl-10" src={design1} alt="" />
+            <img
+              data-aos="fade-down-left"
+              className="absolute pr-3 lg:pr-7 right-0"
+              src={design2}
+              alt=""
+            />
+            <img
+              data-aos="fade-up-right"
+              className="absolute -bottom-1 pl-3 lg:pl-10"
+              src={design1}
+              alt=""
+            />
             <div className="absolute -bottom-40 lg:-bottom-36 left-0 pb-10">
               <p className="text-[#FD6F00] font-poppins text-[19px] font-normal leading-normal tracking-[0.57px]">
                 Web Design
@@ -49,8 +61,18 @@ const Projects = () => {
             </div>
           </div>
           <div className="relative w-[370px] lg:w-[445px] h-[489px] rounded-[12px] bg-[#FFEBDB]">
-            <img className="absolute pr-3 lg:pr-7 right-0" src={design4} alt="" />
-            <img className="absolute -bottom-1 pl-3 lg:pl-10" src={design3} alt="" />
+            <img
+              data-aos="fade-down-left"
+              className="absolute pr-3 lg:pr-7 right-0"
+              src={design4}
+              alt=""
+            />
+            <img
+              data-aos="fade-up-right"
+              className="absolute -bottom-1 pl-3 lg:pl-10"
+              src={design3}
+              alt=""
+            />
             <div className="absolute -bottom-40 lg:-bottom-36 left-0 pb-10">
               <p className="text-[#FD6F00] font-poppins text-[19px] font-normal leading-normal tracking-[0.57px]">
                 Web Design
@@ -61,8 +83,18 @@ const Projects = () => {
             </div>
           </div>
           <div className="relative w-[370px] lg:w-[445px] h-[489px] rounded-[12px] bg-[#FFEBDB]">
-            <img className="absolute pr-3 lg:pr-7 right-0" src={design6} alt="" />
-            <img className="absolute -bottom-1 pl-3 lg:pl-10" src={design5} alt="" />
+            <img
+              data-aos="fade-down-left"
+              className="absolute pr-3 lg:pr-7 right-0"
+              src={design6}
+              alt=""
+            />
+            <img
+              data-aos="fade-up-right"
+              className="absolute -bottom-1 pl-3 lg:pl-10"
+              src={design5}
+              alt=""
+            />
             <div className="absolute -bottom-32 lg:-bottom-36 left-0 pb-10">
               <p className="text-[#FD6F00] font-poppins text-[19px] font-normal leading-normal tracking-[0.57px]">
                 Web Design

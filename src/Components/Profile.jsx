@@ -1,15 +1,21 @@
+import { useEffect } from 'react';
 import man from '../assets/Picture1.png';
 import icon from '../assets/icons.png';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Profile = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2500 });
+  }, []);
   return (
     <div className="lg:flex flex-col lg:flex-row justify-around gap-14 mt-6 lg:mt-32 poppins">
       <div className="order-1 lg:order-2 ">
         <div className="relative">
-          <img src={man} alt="Profile" />
-          <div className="lg:w-[374px] w-[200px] h-[50px] absolute top-14 lg:top-20 right-[90px] lg:right-24 lg:h-[83px] flex-shrink-0 bg-[rgba(253,111,0,0.6)]"></div>
+          <img data-aos='fade-left' src={man} alt="Profile" />
+          <div data-aos="fade-right" className="lg:w-[374px] w-[200px] h-[50px] absolute top-14 lg:top-20 right-[90px] lg:right-24 lg:h-[83px] flex-shrink-0 bg-[rgba(253,111,0,0.6)]"></div>
         </div>
-        <div className="flex justify-center mt-6">
+        <div data-aos="fade-up" className="flex justify-center mt-6">
           <img className="w-[205px] h-[32px]" src={icon} alt="Icon" />
         </div>
       </div>
