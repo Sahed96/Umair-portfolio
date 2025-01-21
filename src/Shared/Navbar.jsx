@@ -1,6 +1,7 @@
 import Logo from '../Components/logo';
 import { NavHashLink as Link } from 'react-router-hash-link';
 
+
 const Navbar = () => {
   const Navlist = (
     <div className="lg:flex  hover:cursor-pointer traking-[0.63px] items-center text-xl font-normal lg:space-x-10 poppins">

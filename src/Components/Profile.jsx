@@ -3,8 +3,21 @@ import man from '../assets/Picture1.png';
 import icon from '../assets/icons.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { useTypewriter } from 'react-simple-typewriter'
 
 const Profile = () => {
+  const [text1]  = useTypewriter({
+    words: ['UI & UX', 'FrontEnd'],
+    loop: true,
+    typeSpeed: 200,
+  })
+
+  const [ text2 ] = useTypewriter({
+    words: ['Designer', 'Developer'],
+    loop: true,
+    typeSpeed: 200,
+  })
+
   useEffect(() => {
     Aos.init({ duration: 2500 });
   }, []);
@@ -28,10 +41,10 @@ const Profile = () => {
         </p>
         <div>
           <h1 className="text-black text-5xl lg:text-[100px] font-extrabold leading-[120%] tracking-[3px]">
-            UI & UX
+            {text1}
           </h1>
           <h1 className="text-black ml-14 lg:ml-[230px]  text-5xl lg:text-[100px] font-extrabold leading-[120%] tracking-[3px]">
-            Designer{' '}
+            {text2}
           </h1>
         </div>
         <p className="lg:w-[698px] w-[350px] mt-7 mb-6 h-[101px] flex-shrink-0 text-black text-justify text-[21px] font-normal leading-normal tracking-[0.63px]">
