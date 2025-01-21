@@ -1,8 +1,9 @@
 import man from '../assets/Picture1.png';
+import icon from '../assets/icons.png';
 
 const Profile = () => {
   return (
-    <div className="flex justify-between gap-14 mt-32 poppins">
+    <div className="flex justify-around gap-14 mt-32 poppins">
       <div>
         <p className="text-black text-[24px] font-poppins font-semibold leading-normal tracking-[0.72px]">
           Hi I am{' '}
@@ -28,9 +29,12 @@ const Profile = () => {
         </button>
       </div>
       <div>
-        <div className='relative'>
+        <div className="relative">
           <img src={man} alt="" />
-          <div className='w-[374px] absolute top-14 left-9 h-[83px] flex-shrink-0 bg-[rgba(253,111,0,0.6)]'></div>
+          <div className="w-[374px] absolute top-20 right-24 h-[83px] flex-shrink-0 bg-[rgba(253,111,0,0.6)]"></div>
+        </div>
+        <div className='flex justify-center mt-6'>
+          <img className="w-[205px] h-[32px]" src={icon} alt="" />
         </div>
       </div>
     </div>

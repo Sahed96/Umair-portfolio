@@ -12,3 +12,7 @@
 .montserrat {
   font-family: 'Montserrat', sans-serif;
 }
+
+.ant-slider-track {
+  background-color: #FD6F00 !important;
+}

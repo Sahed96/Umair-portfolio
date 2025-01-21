@@ -2,7 +2,7 @@ import Logo from '../Components/logo';
 
 const Navbar = () => {
   const Navlist = (
-    <div className="lg:flex hover:cursor-pointer items-center text-xl font-normal lg:space-x-10 poppins">
+    <div className="lg:flex hover:cursor-pointer traking-[0.63px] items-center text-xl font-normal lg:space-x-10 poppins">
       <li>Home</li>
       <li>About Me</li>
       <li>Services</li>
